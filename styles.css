@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #000000CC;
+    width: 100%;
+    height:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    display: inline-block;
+    margin: 0 25px 0 25px;
+    color: #F5F5F7;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+#ip-13{
+    background-image: url("images/iphone13-pro-large.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#ip-13 p{
+    color:#1d1d1f;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#ip-13 h1{
+    font-size: 44px;
+}
+#ip-13 h3{
+    font-size: 27px;
+}
+#ip-13 a{
+    font-size: 21px;
+    margin: 0 12px 0 12px;
+    text-decoration: none;
+    color: #2997ff;
+}
+#ip-13pink{
+    background-image: url("images/iphone13-large.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-family: 'Roboto',sans-serif;
+    
+}
+#ip-13pink h1{
+    font-size: 44px;
+    color: white;
+}
+#ip-13pink h3{
+    font-size: 27px;
+        color: palevioletred;
+}
+#ip-13pink a{
+    font-size: 21px;
+    margin: 0 12px 0 12px;
+    text-decoration: none;
+    color: #2997ff;
+}
+#flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.watch{
+    background-image: url('images/watch7-large.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 10px 0px 0px;
+    width: 50%;
+    height: 100vh;
+}
+.airpods{
+    background-image: url('images/airpods-model-large.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.airpods-text{
+    color: white;
+    margin-bottom: 25px;
+    font-family: 'Roboto',sans-serif;
+}
+.airpods-text h1{
+    font-size: 44px;
+}
+.airpods-text h3{
+    font-size: 27px;
+}
+#flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.Macbook{
+    background-image: url('images/macbook-pro-large.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+
+
+}
+.homepod{
+    background-image: url('images/homepod-mini-large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+     margin: 10px 10px 0px 0px;
+}
+.homepod a{
+    color: #2997ff;
+    font-size: 21px;
+    text-decoration: none;
+    margin: 0 12px 0 12px;
+
+}
+.homepod h1{
+    font-size: 44px;
+}
+.Macbook a{
+    color: #2997ff;
+    font-size: 21px;
+    text-decoration: none;
+    margin: 0 12px 0 12px;
+
+}
+.Macbook h1{
+    font-size: 44px;
+}
+.Macbook p{
+    font-size: 27px;
+}
+
+#flex3{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#flex3 li{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+#footer{
+color:#6e6373 ;
+font-size: 12px;
+font-family: 'Roboto',sans-serif;
+background-color: #000000CC;
+height: 30px;
+width: 100%;
+}
+.watch-text{
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+.orange-text{
+    color: orange;
+    font-size: 27px;
+}
+.red-text{
+    color: red;
+    font-size: 27px;
+}
+.watch-text a{
+display: inline-block;
+text-decoration: none;
+color: #2997ff;
+margin: 0 12px 0 12px;
+font-size: 21px;
+
+}
+.watch-text img,h1{
+    display: inline-block;
+}
+.watch-text img{
+    width: 32px;
+}
+.watch-text h1{
+    font-size: 44px;
+}
+
+
+
+
